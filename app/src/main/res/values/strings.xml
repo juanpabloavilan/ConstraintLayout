@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">ConstraintLayoutLab</string>
+    <string name="exercise_a">Exercise A</string>
+    <string name="exercise_b">Exercise b</string>
+    <string name="exercise_c">Exercise C</string>
+    <string name="exercise_d">Exercise D</string>
+    <string name="exercise_form">Exercise Form</string>
+    <string name="laboratorio_constraint_layout_juan_pablo_avilan">Laboratorio Constraint Layout: Juan Pablo Avilan</string>
+    <string name="button_1">Button 1</string>
+    <string name="button_2">button 2</string>
+    <string name="button">Button</string>
 </resources>
