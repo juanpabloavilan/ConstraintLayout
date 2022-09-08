@@ -68,6 +68,19 @@
         app:layout_constraintTop_toBottomOf="@+id/ExerciseD"
         android:onClick="goToExerciseForm"/>
 
+    <Button
+        android:id="@+id/ExercisePostProduct"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/publicar_producto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ExerciseForm"
+        android:onClick="goToExercisePostProduct"/>
+
     <TextView
         android:layout_width="0dp"
         android:layout_height="wrap_content"

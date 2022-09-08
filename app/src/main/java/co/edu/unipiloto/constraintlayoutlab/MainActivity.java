@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     private Button buttonExerciseC;
     private Button buttonExerciseD;
     private Button buttonExerciseForm;
+    private Button buttonExecisePostProduct;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         buttonExerciseC = findViewById(R.id.ExerciseC);
         buttonExerciseD = findViewById(R.id.ExerciseD);
         buttonExerciseForm = findViewById(R.id.ExerciseForm);
+        buttonExecisePostProduct = findViewById(R.id.ExercisePostProduct);
 
     }
 
@@ -46,6 +48,11 @@ public class MainActivity extends AppCompatActivity {
     public void goToExerciseForm(View view){
         Intent intent = new Intent(this, ExerciseForm.class);
         startActivity(intent);
+    }
+    public void goToExercisePostProduct(View view){
+        Intent intent = new Intent(this, ExercisePostProduct.class);
+        startActivity(intent);
+
     }
 
 }

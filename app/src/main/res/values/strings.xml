@@ -9,4 +9,10 @@
     <string name="button_1">Button 1</string>
     <string name="button_2">button 2</string>
     <string name="button">Button</string>
+    <string name="publicar_un_producto">Publicar un producto</string>
+    <string name="nombre_del_producto">Nombre del Producto</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="ingrese_el_nombre">Ingrese el nombre</string>
+    <string name="ingrese_una_breve_descripcion">Ingrese una breve descripcion</string>
+    <string name="publicar_producto">Publicar Producto</string>
 </resources>
